@@ -1,1 +1,1 @@
-
+tunggu ya om
