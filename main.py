@@ -1,5 +1,6 @@
 import os #header function clean and pause
-from conn import read
+from ArrayQueue import ArrayQueue
+from conn import inupdel, read
 
 # SQL
 # HOW TO USE INUPDEL
@@ -11,6 +12,7 @@ from conn import read
 # data = read(sql)
 # for data in data:
 #     print(data)
+
 
 #fungsi clean
 def cls():
@@ -42,7 +44,8 @@ def graph():
 
 #fungsi isi queue untuk entry tiket
 def queue():
-     print('Masukin metode queue')
+     #print('Masukin metode queue')
+     ArrayQueue()
 
 #menu pertama
 if __name__=='__main__':
