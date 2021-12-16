@@ -44,7 +44,7 @@ if __name__=='__main__':
         except:
             print('Wrong input. Please enter a number ...')
         if option == 1:
-           graph()
+            graph()
             sleep(8)
             cls()
         elif option == 2:
