@@ -1,3 +1,10 @@
+import os #header function clean
+from time import sleep #header function sleep
+
+#fungsi clean
+def cls():
+    os.system('cls')
+
 
 #head menu pertama
 def menu_visual():  
@@ -38,10 +45,18 @@ if __name__=='__main__':
             print('Wrong input. Please enter a number ...')
         if option == 1:
            graph()
+            sleep(8)
+            cls()
         elif option == 2:
             queue()
+            sleep(8)
+            cls()
         elif option == 3:
             print('Thanks, the program is exiting')
+            sleep(8)
+            cls()
             exit()
         else:
             print('Invalid option. Try to input again!')
+            sleep(8)
+            cls()
