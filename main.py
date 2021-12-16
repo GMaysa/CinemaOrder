@@ -40,7 +40,14 @@ def print_menu():
 
 #fungsi isi graph penjadwalan film
 def graph():
-     print('Masukin metode graph')
+     sql = "SELECT filmId FROM cinema_show"
+     data = read(sql)
+     idF = []
+     for i in data:
+        d = str(i)
+        sql = ("SELECT nama_film FROM cinema_film WHERE id_film ='"+d+"'")
+        print(read(sql))
+        # idF[i] = data
 
 #fungsi isi queue untuk entry tiket
 def queue():

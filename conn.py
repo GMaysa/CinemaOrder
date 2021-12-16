@@ -4,7 +4,7 @@ db = sql.connect(
     host="localhost",
     user="root",
     password="",
-    database="test"
+    database="cinemaku"
 )
 cursor = db.cursor()
 
