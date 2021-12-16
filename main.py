@@ -1,4 +1,16 @@
 import os #header function clean and pause
+from conn import read
+
+# SQL
+# HOW TO USE INUPDEL
+# sql = "INSERT or UPDATE or DELETE something from tabel"
+# inupdel(sql)
+
+# HOW TO USE READ
+# sql = "SELECT * FROM tabel"
+# data = read(sql)
+# for data in data:
+#     print(data)
 
 #fungsi clean
 def cls():
