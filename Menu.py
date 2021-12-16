@@ -1,8 +1,8 @@
-import os #header function clean
-from time import sleep #header function sleep
+import os #header function clean and pause
 
 #fungsi clean
 def cls():
+    os.system('pause')
     os.system('cls')
 
 
@@ -45,18 +45,14 @@ if __name__=='__main__':
             print('Wrong input. Please enter a number ...')
         if option == 1:
             graph()
-            sleep(8)
             cls()
         elif option == 2:
             queue()
-            sleep(8)
             cls()
         elif option == 3:
             print('Thanks, the program is exiting')
-            sleep(8)
             cls()
             exit()
         else:
             print('Invalid option. Try to input again!')
-            sleep(8)
             cls()
