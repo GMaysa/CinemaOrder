@@ -1,4 +1,6 @@
 import os #header function clean and pause
+from ArrayQueue import ArrayQueue
+
 
 #fungsi clean
 def cls():
@@ -30,7 +32,8 @@ def graph():
 
 #fungsi isi queue untuk entry tiket
 def queue():
-     print('Masukin metode queue')
+     #print('Masukin metode queue')
+     ArrayQueue()
 
 #menu pertama
 if __name__=='__main__':
