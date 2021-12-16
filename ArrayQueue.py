@@ -29,3 +29,6 @@ class ArrayQueue:
 			raise Empty('queue is empty')
 		else:
 			return self._data[self._front]
+
+class Empty(Exception):
+pass
