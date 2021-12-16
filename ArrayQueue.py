@@ -31,4 +31,4 @@ class ArrayQueue:
 			return self._data[self._front]
 
 class Empty(Exception):
-pass
+	pass
